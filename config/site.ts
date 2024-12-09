@@ -56,10 +56,10 @@ export const siteConfig: SiteConfig = {
   ...baseSiteConfig,
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en",
     url: baseSiteConfig.url,
     title: baseSiteConfig.name,
-    images: [`${baseSiteConfig.url}/og.png`],
+    images: [`${baseSiteConfig.url}/logo.png`],
     description: baseSiteConfig.description,
     siteName: baseSiteConfig.name,
   },
@@ -68,7 +68,7 @@ export const siteConfig: SiteConfig = {
     site: baseSiteConfig.url,
     title: baseSiteConfig.name,
     description: baseSiteConfig.description,
-    images: [`${baseSiteConfig.url}/og.png`],
+    images: [`${baseSiteConfig.url}/logo.png`],
     creator: baseSiteConfig.creator,
   },
 }
