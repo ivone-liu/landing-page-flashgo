@@ -53,11 +53,11 @@ const Testimonials = ({ id, locale }: { id: string; locale: any }) => {
                   </div>
                 </div>
                 <Link
-                  href={`https://twitter.com/${testimonial.user.username}`}
+                  href="mailto:ivone.lau@icloud.com"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                 >
-                  <TwitterX className="w-8 h-8" />
+                  
                 </Link>
               </div>
               <p className="dark:text-zinc-200 text-[14px]">

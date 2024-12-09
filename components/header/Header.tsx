@@ -12,7 +12,6 @@ import { ThemedButton } from "../ThemedButton";
 
 const links = [
   { label: "Features", href: "#Features" },
-  { label: "Pricing", href: "#Pricing" },
   { label: "Testimonials", href: "#Testimonials" },
   { label: "FAQ", href: "#FAQ" },
 ];
@@ -29,13 +28,13 @@ const Header = () => {
         <div className="flex items-center md:gap-x-12 flex-1">
           <Link
             href="/"
-            aria-label="Landing Page Boilerplate"
-            title="Landing Page Boilerplate"
+            aria-label="FlashGO"
+            title="FlashGO"
             className="flex items-center space-x-1 font-bold"
           >
             <Image
               alt="Logo"
-              src="/logo.svg"
+              src="/logo.png"
               className="w-8 h-8"
               width={32}
               height={32}

@@ -4,207 +4,213 @@ import { BsGithub } from "react-icons/bs";
 import { FaToolbox } from "react-icons/fa";
 import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
 import { MdCloudUpload } from "react-icons/md";
+import { BsDatabaseFillLock } from "react-icons/bs";
+import { TbFreeRights } from "react-icons/tb";
+import { MdOutlineHealthAndSafety } from "react-icons/md";
+import { TbUserOff } from "react-icons/tb";
+import { MdDateRange } from "react-icons/md";
+import { AiOutlineMessage } from "react-icons/ai";
 
 export const FEATURES_EN = [
   {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
-    icon: BsGithub,
+    icon: BsDatabaseFillLock,
+    title: "Data held locally",
+    content: "Notes are always stored only on your computer, no data leakage issues.",
   },
   {
-    title: "Responsive Design",
+    icon: TbFreeRights,
+    title: "Free of charge",
     content:
-      "Templates meticulously designed to ensure optimal display on any device.",
-    icon: FaMobileScreenButton,
+      "No need to pay for the purchase, all features are free to use.",
   },
   {
-    title: "Easy Customization",
+    icon: MdOutlineHealthAndSafety,
+    title: "Data safety",
     content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
-    icon: FaToolbox,
+      "Local data is encrypted twice to ensure that the note data will not be accessed and utilised by other apps.",
   },
   {
-    title: "SEO Optimized",
+    icon: TbUserOff,
+    title: "No registration required",
     content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
-    icon: MagnetIcon,
+      "There is no need to provide identifying information to register for an account, and you can use it directly after installation.",
   },
   {
-    title: "One-Click Deployment",
+    icon: MdDateRange,
+    title: "Date notes",
     content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
-    icon: MdCloudUpload,
+      "Note data is categorised by day, making it easy to find, read and review.",
   },
   {
-    title: "Globalization Support",
+    icon: AiOutlineMessage,
+    title: "AI Assistant",
     content:
-      "Supports multiple languages, making your website attractive to a global audience.",
-    icon: FaEarthAsia,
-  },
+      "Built-in AI assistant, support openrouter access, better help you review and summarise.",
+  }
 ];
 
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
-    icon: BsGithub,
+    icon: BsDatabaseFillLock,
+    title: "本地数据",
+    content: "笔记永远只存放在你电脑上，无数据泄露问题。",
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
-    icon: FaMobileScreenButton,
+    icon: TbFreeRights,
+    title: "免费使用",
+    content: "无需付费购买，全部功能免费使用。",
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
-    icon: FaToolbox,
+    icon: MdOutlineHealthAndSafety,
+    title: "数据安全",
+    content: "本地数据二次加密，确保笔记数据不会被其他App获取利用。",
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
-    icon: MagnetIcon,
+    icon: TbUserOff,
+    title: "无需注册",
+    content: "无需提供身份信息注册账户，安装后可直接使用。",
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
-    icon: MdCloudUpload,
+    icon: MdDateRange,
+    title: "日期笔记",
+    content: "笔记数据按日归类，方便查找、阅读和回顾。",
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
-    icon: FaEarthAsia,
-  },
+    icon: AiOutlineMessage,
+    title: "AI 助手",
+    content: "内置 AI 助手，支持 openrouter 接入，更好的帮你回顾和总结。",
+  }
 ];
 
 export const FEATURES_JA = [
   {
-    title: "オープンソースの利点",
-    content: "完全無料で、豊富なカスタマイズオプションを提供。",
-    icon: BsGithub,
+    icon: BsDatabaseFillLock,
+    title: "ローカルデータ",
+    content: "ノートは常にあなたのコンピュータにのみ保存され、データ漏洩の問題はありません。",
   },
   {
-    title: "レスポンシブデザイン",
-    content: "どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。",
-    icon: FaMobileScreenButton,
+    icon: TbFreeRights,
+    title: "利用無料",
+    content: "購入費用は不要で、すべての機能が無料で使用できる。",
   },
   {
-    title: "簡単カスタマイズ",
-    content: "色、フォント、レイアウトをコーディング知識なしで簡単に変更可能。",
-    icon: FaToolbox,
+    icon: MdOutlineHealthAndSafety,
+    title: "データ機密保護",
+    content: "ローカルデータは2回暗号化され、ノートデータが他のアプリからアクセスされたり、利用されたりしないようになっています。",
   },
   {
-    title: "SEO最適化",
-    content: "ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。",
-    icon: MagnetIcon,
+    icon: TbUserOff,
+    title: "登録不要",
+    content: "アカウント登録のために識別情報を提供する必要はなく、インストール後そのまま使用できる。",
   },
   {
-    title: "ワンクリックデプロイメント",
-    content: "主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。",
-    icon: MdCloudUpload,
+    icon: MdDateRange,
+    title: "日付 備考",
+    content: "ノートデータは日ごとに分類され、探しやすく、読みやすく、見返しやすい。",
   },
   {
-    title: "グローバリゼーションサポート",
-    content: "複数言語をサポートし、グローバルな視聴者を魅了するウェブサイト。",
-    icon: FaEarthAsia,
+    icon: AiOutlineMessage,
+    title: "AIアシスタント",
+    content: "AIアシスタントを内蔵し、openrouterへのアクセスをサポート。",
   },
 ];
 
 export const FEATURES_AR = [
   {
-    title: "ميزة المصدر المفتوح",
-    content: "مجانية بالكامل مع ثروة من خيارات التخصيص.",
-    icon: BsGithub,
+    icon: BsDatabaseFillLock,
+    title: "البيانات المحلية",
+    content: "يتم تخزين الملاحظات دائمًا على جهاز الكمبيوتر الخاص بك فقط، ولا توجد مشكلات في تسرب البيانات.",
   },
   {
-    title: "تصميم متجاوب",
-    content: "تم تصميم القوالب بعناية لضمان عرض مثالي على أي جهاز.",
-    icon: FaMobileScreenButton,
+    icon: TbFreeRights,
+    title: "مجاني للاستخدام",
+    content: "لا حاجة للدفع مقابل الشراء، فجميع الميزات مجانية الاستخدام.",
   },
   {
-    title: "تخصيص سهل",
-    content: "غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.",
-    icon: FaToolbox,
+    icon: MdOutlineHealthAndSafety,
+    title: "أمن البيانات",
+    content: "يتم تشفير البيانات المحلية مرتين لضمان عدم الوصول إلى بيانات الملاحظات واستخدامها من قبل تطبيقات أخرى.",
   },
   {
-    title: "مُحسّن لمحركات البحث",
-    content: "تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.",
-    icon: MagnetIcon,
+    icon: TbUserOff,
+    title: "لا يلزم التسجيل",
+    content: "ليست هناك حاجة لتقديم معلومات تعريفية للتسجيل للحصول على حساب، ويمكنك استخدامه مباشرةً بعد التثبيت.",
   },
   {
-    title: "نشر بنقرة واحدة",
-    content: "متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.",
-    icon: MdCloudUpload,
+    icon: MdDateRange,
+    title: "ملاحظات التاريخ",
+    content: "يتم تصنيف بيانات الملاحظات حسب اليوم، مما يسهل العثور عليها وقراءتها ومراجعتها.",
   },
   {
-    title: "دعم العولمة",
-    content: "يدعم لغات متعددة، مما يجعل موقعك جذابًا لجمهور عالمي.",
-    icon: FaEarthAsia,
+    icon: AiOutlineMessage,
+    title: "مساعد الذكاء الاصطناعي",
+    content: "مساعد مدمج للذكاء الاصطناعي، يدعم الوصول إلى Openrouter، ويساعدك على المراجعة والتلخيص بشكل أفضل.",
   },
 ];
 
 export const FEATURES_ES = [
   {
-    title: "Ventaja del Código Abierto",
-    content: "Completamente gratuito con una riqueza de opciones de personalización.",
-    icon: BsGithub,
+    icon: BsDatabaseFillLock,
+    title: "datos locales",
+    content: "Las notas se almacenan siempre sólo en tu ordenador, sin problemas de fuga de datos.",
   },
   {
-    title: "Diseño Responsivo",
-    content: "Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.",
-    icon: FaMobileScreenButton,
+    icon: TbFreeRights,
+    title: "Uso gratuito",
+    content: "No es necesario pagar por la compra, todas las funciones son de uso gratuito.",
   },
   {
-    title: "Personalización Fácil",
-    content: "Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.",
-    icon: FaToolbox,
+    icon: MdOutlineHealthAndSafety,
+    title: "seguridad de los datos",
+    content: "Los datos locales se encriptan dos veces para garantizar que otras aplicaciones no puedan acceder a ellos ni utilizarlos.",
   },
   {
-    title: "Optimizado para SEO",
-    content: "Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.",
-    icon: MagnetIcon,
+    icon: TbUserOff,
+    title: "No es necesario registrarse",
+    content: "No es necesario facilitar datos de identificación para registrarse y se puede utilizar directamente tras la instalación.",
   },
   {
-    title: "Despliegue con Un Clic",
-    content: "Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.",
-    icon: MdCloudUpload,
+    icon: MdDateRange,
+    title: "Fecha Notas",
+    content: "Los datos de las notas se clasifican por días, lo que facilita su búsqueda, lectura y revisión.",
   },
   {
-    title: "Soporte de Globalización",
-    content: "Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.",
-    icon: FaEarthAsia,
+    icon: AiOutlineMessage,
+    title: "Asistente AI",
+    content: "Asistente de IA incorporado, compatible con el acceso a openrouter, para ayudarte mejor a revisar y resumir.",
   },
 ];
 
 export const FEATURES_RU = [
   {
-    title: "Преимущество Открытого Исходного Кода",
-    content: "Полностью бесплатно с широкими возможностями настройки.",
-    icon: BsGithub,
+    icon: BsDatabaseFillLock,
+    title: "локальные данные",
+    content: "Заметки всегда хранятся только на вашем компьютере, никаких проблем с утечкой данных.",
   },
   {
-    title: "Адаптивный Дизайн",
-    content: "Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.",
-    icon: FaMobileScreenButton,
+    icon: TbFreeRights,
+    title: "Бесплатное использование",
+    content: "Не нужно платить за покупку, все функции доступны бесплатно.",
   },
   {
-    title: "Легкая Настройка",
-    content: "Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.",
-    icon: FaToolbox,
+    icon: MdOutlineHealthAndSafety,
+    title: "безопасность данных",
+    content: "Локальные данные дважды шифруются, чтобы гарантировать, что данные заметки не будут доступны и использованы другими приложениями.",
   },
   {
-    title: "Оптимизировано для Поисковых Систем",
-    content: "Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.",
-    icon: MagnetIcon,
+    icon: TbUserOff,
+    title: "Регистрация не требуется",
+    content: "Для регистрации учетной записи не нужно предоставлять идентификационные данные, и вы можете использовать ее сразу после установки.",
   },
   {
-    title: "Развертывание в Один Клик",
-    content: "Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.",
-    icon: MdCloudUpload,
+    icon: MdDateRange,
+    title: "Примечания к дате",
+    content: "Данные о заметках распределены по дням, что облегчает их поиск, чтение и просмотр.",
   },
   {
-    title: "Поддержка Глобализации",
-    content: "Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.",
-    icon: FaEarthAsia,
+    icon: AiOutlineMessage,
+    title: "AI Assistant",
+    content: "Встроенный помощник AI, поддерживающий доступ к openrouter, поможет вам лучше просматривать и подводить итоги.",
   },
 ];
 

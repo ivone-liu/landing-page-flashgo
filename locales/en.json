@@ -1,9 +1,9 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
+    "title1": "FlashGO",
+    "title2": "Efficient daily notes app",
     "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "description": "A purer time note on Mac for better categorization of daily notes."
   },
   "SocialProof": {
     "maker": "makers ship fast"
@@ -32,16 +32,16 @@
     "title": "FAQs",
     "description": "Here are some of the most frequently asked questions."
   },
-  "CTA": {
-    "title": "Build Your Landing Page Now",
-    "description1": "Build",
-    "description2": "your landing page,",
-    "description3": "show",
-    "description4": "your product, and",
-    "description5": "start earning",
+  "CTA": { 
+    "title": "Download and use now!",
+    "description1": "Build your ",
+    "description2": "note-taking system",
+    "description3": "more efficiently",
+    "description4": "before",
+    "description5": "anyone else does",
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Get Boilerplate"
+    "title": "Get the App"
   }
 }
