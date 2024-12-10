@@ -9,7 +9,7 @@ const baseSiteConfig = {
   name: "FlashGO",
   description:
     "Mac上更纯粹的时间笔记，让每天的笔记更好的归类记录",
-  url: "https://landingpage.weijunext.com",
+  url: "https://flashgo.memocard.net",
   ogImage: "https://landingpage.weijunext.com/og.png",
   metadataBase: '/',
   keywords: ["flashgo", "笔记工具", "mac 笔记软件"],
@@ -20,8 +20,8 @@ const baseSiteConfig = {
       twitter: '#',
     }
   ],
-  creator: '@weijunext',
-  openSourceURL: 'https://github.com/weijunext/landing-page-boilerplate',
+  creator: '@ivone',
+  openSourceURL: '#',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -56,7 +56,7 @@ export const siteConfig: SiteConfig = {
   ...baseSiteConfig,
   openGraph: {
     type: "website",
-    locale: "en",
+    locale: "zh",
     url: baseSiteConfig.url,
     title: baseSiteConfig.name,
     images: [`${baseSiteConfig.url}/logo.png`],
