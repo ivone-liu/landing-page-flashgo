@@ -36,8 +36,8 @@ const Header = () => {
               alt="Logo"
               src="/logo.png"
               className="w-8 h-8"
-              width={32}
-              height={32}
+              width={48}
+              height={48}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
               {siteConfig.name}
