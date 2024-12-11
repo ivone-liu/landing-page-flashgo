@@ -20,7 +20,7 @@ const CTAButton = ({ locale }: { locale: any }) => {
         </Button>
       </Link>
       <Link
-        href="https://www.memocard.net/flashgo-1.1.0-for-silicon.dmg"
+        href="https://www.memocard.net/flashgo-1.1.0-for-intel.dmg"
         target="_blank"
         rel="noopener noreferrer nofollow"
         style={{ marginLeft: '10px' }}
