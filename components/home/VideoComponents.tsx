@@ -1,9 +1,13 @@
 const VideoComponents = () => {
   return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center">
+    <div className="mx-auto max-w-6xl w-full px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center">
       <video
+        width="640px"
+        height="360px"
         controls
         style={{
+          width: '100%',
+          height: '100%',
           borderRadius: '1rem',
         }}
       >
