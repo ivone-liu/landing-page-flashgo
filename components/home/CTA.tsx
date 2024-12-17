@@ -24,6 +24,10 @@ const CTA = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
         </p>
       </div>
       <CTAButton locale={CTALocale} />
+      <p className="text-small text-default-500 mt-4">
+        <span className="mr-4">{CTALocale.dangqianbanben}1.1.2</span>
+        <span>{CTALocale.gengxinriqi}2024-12-17</span>
+      </p>
     </section>
   );
 };

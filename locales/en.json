@@ -32,7 +32,7 @@
     "title": "FAQs",
     "description": "Here are some of the most frequently asked questions."
   },
-  "CTA": { 
+  "CTA": {
     "title": "Download and use now!",
     "description1": "Build your ",
     "description2": "note-taking system",
@@ -43,6 +43,8 @@
   },
   "CTAButton": {
     "title": "Apple Silicon",
-    "title2": "Intel"
+    "title2": "Intel",
+    "dangqianbanben": "Current Version：",
+    "gengxinriqi": "Update Date："
   }
 }

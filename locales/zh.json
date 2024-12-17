@@ -43,6 +43,8 @@
   },
   "CTAButton": {
     "title": "M芯片安装包",
-    "title2": "Intel芯片安装包"
+    "title2": "Intel芯片安装包",
+    "dangqianbanben": "当前版本：",
+    "gengxinriqi": "更新日期："
   }
 }
