@@ -5,7 +5,7 @@ import Link from "next/link";
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <Link
-      href="https://www.memocard.net/flashgo-1.1.0-for-silicon.dmg"
+      href="https://www.memocard.net/flashgo-1.1.1-for-silicon.dmg"
       target="_blank"
       rel="noopener noreferrer nofollow"
     >
