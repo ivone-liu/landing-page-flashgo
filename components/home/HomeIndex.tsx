@@ -4,6 +4,7 @@ import Feature from "@/components/home/Feature";
 import Hero from "@/components/home/Hero";
 import SocialProof from "@/components/home/SocialProof";
 import Testimonials from "@/components/home/Testimonials";
+import VideoComponents from "@/components/home/VideoComponents";
 import { defaultLocale, getDictionary } from "@/lib/i18n";
 
 export default async function HomeIndex({ lang }: { lang: string }) {
@@ -15,9 +16,11 @@ export default async function HomeIndex({ lang }: { lang: string }) {
       {/* Hero Section */}
       <Hero locale={dict.Hero} CTALocale={dict.CTAButton} />
       <SocialProof locale={dict.SocialProof} />
-      
+
       {/* Showcase */}
       {/* <Showcase id="Showcase" locale={dict.Showcase} /> */}
+
+      <VideoComponents></VideoComponents>
 
       {/* USP (Unique Selling Proposition) */}
       <Feature id="Features" locale={dict.Feature} langName={langName} />
