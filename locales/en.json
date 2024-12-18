@@ -44,7 +44,7 @@
   "CTAButton": {
     "title": "Apple Silicon",
     "title2": "Intel",
-    "dangqianbanben": "Current Version：",
-    "gengxinriqi": "Update Date："
+    "dangqianbanben": "version ",
+    "gengxinriqi": "last update "
   }
 }

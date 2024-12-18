@@ -6,8 +6,8 @@ const CTA = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
   return (
     <section className="flex flex-col justify-center max-w-[88%] items-center py-16 gap-12">
       <div className="flex flex-col text-center gap-4">
-        <h2 className="text-center"><a href="https://www.memocard.net/flashgo-1.1.1-for-silicon.dmg" target="_blank">{locale.title}</a></h2>
-        <h2 className="text-center"><a href="https://www.memocard.net/flashgo-1.1.1-for-intel.dmg" target="_blank">{locale.title1}</a></h2>
+        <h2 className="text-center"><a href="https://www.memocard.net/flashgo-1.1.1-for-silicon.zip" target="_blank">{locale.title}</a></h2>
+        <h2 className="text-center"><a href="https://www.memocard.net/flashgo-1.1.1-for-intel.zip" target="_blank">{locale.title1}</a></h2>
         <p className="text-large text-default-500">
           <RoughNotation type="box" color="#b71c1c" show={true}>
             {locale.description1}
