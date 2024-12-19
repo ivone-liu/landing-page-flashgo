@@ -6,7 +6,7 @@ const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <div className="flex justify-center items-center gap-4">
       <Link
-        href="https://flashgo.s3.bitiful.net/flashgo-1.1.1-for-silicon.zip"
+        href="https://flashgo.s3.bitiful.net/flashgo-1.1.2-for-silicon.zip"
         target="_blank"
         rel="noopener noreferrer nofollow"
       >
@@ -20,7 +20,7 @@ const CTAButton = ({ locale }: { locale: any }) => {
         </Button>
       </Link>
       <Link
-        href="https://flashgo.s3.bitiful.net/flashgo-1.1.1-for-intel.zip"
+        href="https://flashgo.s3.bitiful.net/flashgo-1.1.2-for-intel.zip"
         target="_blank"
         rel="noopener noreferrer nofollow"
       >
