@@ -31,8 +31,8 @@ const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
       {/* </motion.div> */}
       <CTAButton locale={CTALocale}></CTAButton>
       <p className="text-small text-default-500 mt-4">
-        <span className="mr-4">{CTALocale.dangqianbanben}1.1.2</span>
-        <span>{CTALocale.gengxinriqi}2024-12-17</span>
+        <span className="mr-4">{CTALocale.dangqianbanben}1.1.4</span>
+        <span>{CTALocale.gengxinriqi}2025-01-04</span>
       </p>
     </>
   );
