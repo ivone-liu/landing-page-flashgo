@@ -46,5 +46,25 @@
     "title2": "Intel",
     "dangqianbanben": "Current Version：",
     "gengxinriqi": "Update Date："
+  },
+  "Privacy": {
+    "title": "FlashGO Privacy Policy",
+    "content": [
+      "Welcome to use the products and services provided by 'FlashGO'! FlashGO knows the importance of personal information to you, and we have always solemnly promised to protect the personal information and privacy security of the users (hereinafter referred to as 'FlashGO') who use our products and services (hereinafter referred to as 'users' or 'you'). When you use FlashGO, we may collect and use your relevant personal information. We hope to explain to you through the 'FlashGO Privacy Policy' (hereinafter referred to as 'this policy') the corresponding processing rules when we collect and use your relevant personal information, as well as the ways we provide for you to access, correct, delete and protect this personal information, so as to better protect your rights.",
+      "This policy will help you understand the following content:",
+      "I. About your personal information",
+      "II. Notice and revision",
+      "III. How to contact us",
+      "【Special reminder】Please read this policy carefully (minors please read under the guidance of guardians) and understand this policy (especially the content marked in bold or underlined) before using FlashGO, in order to make appropriate choices. Once you use or continue to use our products or services after we update this policy, it means that you agree to this policy and agree that we will handle your relevant personal information in accordance with this policy.",
+      "I. About your personal information",
+      "This application will not collect any personal information.",
+      "If you enable the iCloud storage service of FlashGO, it will only be synchronized with Apple's iCloud server. This application will not intercept any requests, nor will it store and record any information related to your data.",
+      "The information collected by Apple official is not within the scope of information of FlashGO App, so it is excluded from this agreement. If you have any questions, please contact Apple official customer service.",
+      "II. Notice and revision",
+      "(1) We may modify the terms of this policy in a timely manner, and such modifications constitute a part of this policy. We will issue updated versions through our website, mobile terminal or other official channels, or remind you of the update of relevant content in other appropriate ways. If you continue to use FlashGO, it means that you agree to be bound by the revised terms of this policy.",
+      "(2) We may issue announcements related to the service when necessary (for example, when we suspend a certain service due to system maintenance). You may not be able to cancel these service-related announcements, which are not of a promotional nature.",
+      "III. How to contact us",
+      "If you have any questions, opinions or suggestions about this policy or your personal information, you can contact us by email."
+    ]
   }
 }
