@@ -8,13 +8,13 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
-import { ThemedButton } from "../ThemedButton";
 
-const links = [
-  { label: "Features", href: "#Features" },
-  { label: "Testimonials", href: "#Testimonials" },
-  { label: "FAQ", href: "#FAQ" },
-];
+interface NavLink {
+  label: string;
+  href: string;
+}
+
+const links: NavLink[] = [];
 
 const Header = () => {
   const params = useParams();
@@ -22,7 +22,13 @@ const Header = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <header
+      className="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative"
+      style={{
+        "--header-height": "80px",
+        zIndex: 20
+      } as React.CSSProperties}
+    >
       <nav className="relative z-50 flex justify-between items-center">
         {/* Left section */}
         <div className="flex items-center md:gap-x-12 flex-1">
@@ -64,7 +70,6 @@ const Header = () => {
         {/* Right section */}
         <div className="hidden md:flex items-center justify-end gap-x-6 flex-1">
           <HeaderLinks />
-          <ThemedButton />
           <LangSwitcher />
         </div>
 
@@ -133,7 +138,6 @@ const Header = () => {
                   <div className="flex items-center gap-x-5 justify-between">
                     <HeaderLinks />
                     <div className="flex items-center justify-end gap-x-5">
-                      <ThemedButton />
                       <LangSwitcher />
                     </div>
                   </div>

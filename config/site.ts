@@ -1,7 +1,6 @@
 import { SiteConfig } from "@/types/siteConfig";
-import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { SiAboutdotme, SiCardano, SiBroadcom } from "react-icons/si";
+import { SiAboutdotme } from "react-icons/si";
 
 const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
 
@@ -23,7 +22,7 @@ const baseSiteConfig = {
   creator: '@ivone',
   openSourceURL: '#',
   themeColors: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
+    { media: '(prefers-color-scheme: light)', color: 'black' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
   ],
   nextThemeColor: 'dark', // next-theme option: system | dark | light
@@ -33,9 +32,9 @@ const baseSiteConfig = {
     apple: "/logo.png",
   },
   headerLinks: [
-  //   { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
-  //   { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-  //   { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
+    //   { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
+    //   { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
+    //   { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
   ],
   footerLinks: [
     { name: 'email', href: "mailto:ivone.lau@icloud.com", icon: MdEmail },
@@ -45,11 +44,7 @@ const baseSiteConfig = {
     // { name: 'Grabox', href: "https://grabox.net", icon: SiBroadcom },
     // { name: 'Memocard', href: "https://memocard.net", icon: SiCardano }
   ],
-  footerProducts: [
-    { url: 'https://grabox.net', name: 'Grabox' },
-    { url: 'https://memocard.net', name: 'Memocard' },
-    { url: 'https://icebeer.top', name: 'Blog' }
-  ]
+  footerProducts: []
 }
 
 export const siteConfig: SiteConfig = {

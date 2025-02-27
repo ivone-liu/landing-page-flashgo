@@ -1,37 +1,21 @@
-import { Button } from "@/components/ui/button";
-import { RocketIcon } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
-    <div className="flex justify-center items-center gap-4">
+    <div className="flex items-center">
       <Link
-        href="https://flashgo.s3.bitiful.net/flashgo-1.1.4-for-silicon.zip"
+        href="https://apps.apple.com/cn/app/flashgo/id6740757226"
         target="_blank"
         rel="noopener noreferrer nofollow"
       >
-        <Button
-          variant="default"
-          className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white"
-          aria-label="Get FlashGO"
-        >
-          <RocketIcon />
-          {locale.title}
-        </Button>
-      </Link>
-      <Link
-        href="https://flashgo.s3.bitiful.net/flashgo-1.1.4-for-intel.zip"
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-      >
-        <Button
-          variant="default"
-          className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white"
-          aria-label="Get FlashGO"
-        >
-          <RocketIcon />
-          {locale.title2}
-        </Button>
+        <Image
+          src="/images/appstore.svg"
+          alt="Download on App Store"
+          width={180}
+          height={60}
+          className="hover:opacity-90 transition-opacity"
+        />
       </Link>
     </div>
   );

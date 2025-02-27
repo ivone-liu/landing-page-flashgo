@@ -51,11 +51,11 @@ export default async function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme={siteConfig.nextThemeColor}
-          enableSystem
+          defaultTheme="dark"
+          forcedTheme="dark"
         >
           <Header />
-          <main className="flex flex-col items-center py-6">{children}</main>
+          <main className="flex flex-col items-center">{children}</main>
           <Footer />
           <Analytics />
           <TailwindIndicator />

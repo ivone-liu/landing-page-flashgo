@@ -19,21 +19,39 @@ const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
           },
         }}
       > */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center">
-        <h1>
-          {locale.title1} <LineText>{locale.title2}</LineText> {locale.title3}
-        </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
-          {/* {siteConfig.description} */}
-          {locale.description}
-        </p>
+      <section
+        className="w-screen relative -mt-[calc(var(--header-height,80px)+2.5rem)] -mx-[calc(50vw-50%)]"
+        style={{
+          backgroundImage: 'url("/images/cover.png")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          height: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'flex-start',
+          alignItems: 'flex-start',
+          textAlign: 'left',
+          zIndex: 10,
+          marginBottom: '0',
+        }}
+      >
+        <div className="container mx-auto max-w-7xl h-full px-4 sm:px-6 lg:px-8">
+          <div className="max-w-2xl pt-[calc(var(--header-height,80px)+4rem)] pl-0 md:pl-8 lg:pl-12">
+            <h1 className="text-white">
+              {locale.title1} <LineText>{locale.title2}</LineText> {locale.title3}
+            </h1>
+            <p className="mt-6 max-w-xl text-2xl tracking-tight text-white">
+              {/* {siteConfig.description} */}
+              {locale.description}
+            </p>
+            <div className="mt-8 flex justify-start">
+              <CTAButton locale={CTALocale} />
+            </div>
+          </div>
+        </div>
       </section>
       {/* </motion.div> */}
-      <CTAButton locale={CTALocale}></CTAButton>
-      <p className="text-small text-default-500 mt-4">
-        <span className="mr-4">{CTALocale.dangqianbanben}1.1.4</span>
-        <span>{CTALocale.gengxinriqi}2025-01-04</span>
-      </p>
     </>
   );
 };
