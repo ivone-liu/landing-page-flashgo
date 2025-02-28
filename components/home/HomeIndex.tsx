@@ -10,7 +10,7 @@ export default async function HomeIndex({ lang }: { lang: string }) {
   return (
     <>
       {/* Hero Section */}
-      <Hero locale={dict.Hero} CTALocale={dict.CTAButton} />
+      <Hero locale={{ ...dict.Hero, langCode: langName }} CTALocale={dict.CTAButton} />
       <SocialProof locale={dict.SocialProof} />
 
       {/* CTA (Call to Action) */}

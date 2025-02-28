@@ -3,6 +3,10 @@ import { LineText } from "@/components/LineText";
 import CTAButton from "@/components/home/CTAButton";
 
 const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
+  // Determine which background image to use based on the locale
+  const isChineseLocale = locale.langCode === 'zh';
+  const backgroundImage = isChineseLocale ? 'url("/images/cover-cn.png")' : 'url("/images/cover-us.png")';
+
   return (
     <>
       {/* <motion.div
@@ -22,7 +26,7 @@ const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
       <section
         className="w-screen relative -mt-[calc(var(--header-height,80px)+2.5rem)] -mx-[calc(50vw-50%)]"
         style={{
-          backgroundImage: 'url("/images/cover.png")',
+          backgroundImage,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
