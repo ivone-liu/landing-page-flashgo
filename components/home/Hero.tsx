@@ -34,8 +34,7 @@ const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
           justifyContent: 'flex-start',
           alignItems: 'flex-start',
           textAlign: 'left',
-          marginBottom: '0',
-          position: 'relative',
+          marginBottom: '0'
         }}
       >
         <AnimatePresence mode="wait">
